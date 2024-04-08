@@ -1,0 +1,35 @@
+{
+    "name": "React x Vite",
+    // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+    "image": "node:20",
+    "postCreateCommand": "apt-get update && apt-get install -y fish",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "fish",
+                "terminal.integrated.profiles.linux": {
+                    "fish": {
+                        "path": "fish"
+                    }
+                }
+            },
+            "extensions": [
+                // common
+                "WakaTime.vscode-wakatime",
+                "leodevbro.blockman",
+                "streetsidesoftware.code-spell-checker",
+                "github.vscode-github-actions",
+                "GitHub.copilot",
+                "vscodevim.vim",
+                // JS
+                "bradlc.vscode-tailwindcss",
+                "dbaeumer.vscode-eslint",
+                "ms-vscode.vscode-typescript-next",
+            ]
+        }
+    },
+    "runArgs": [
+        "--env-file",
+        ".devcontainer/.env"
+    ]
+}
