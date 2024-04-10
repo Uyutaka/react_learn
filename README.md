@@ -15,10 +15,12 @@ npm install
 DONE
 
 #### [Keeping Components Pure](https://react.dev/learn/keeping-components-pure)
-WIP
+DONE
 
 #### [Understanding Your UI as a Tree](https://react.dev/learn/understanding-your-ui-as-a-tree)
+DONE
 
 ### [Adding Interactivity](https://react.dev/learn/adding-interactivity)
+#### [Responding to Events](https://react.dev/learn/responding-to-events)
 
-
+WIP Event propagation

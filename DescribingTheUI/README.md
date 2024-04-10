@@ -87,3 +87,11 @@ These inputs must be read-only
 
 By calling the component functions twice, Strict Mode (`<React.StrictMode>`) helps find components that break the rule of pure function.
 
+## Side effect in React
+Side effect usually belong in the event handlers.
+
+Usually event handlers don't need to be pure.
+
+`useEffect` tells React to execute later, after rendering. However, **useEffect should be the last resort.**
+
+

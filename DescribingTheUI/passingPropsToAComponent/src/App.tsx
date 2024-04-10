@@ -46,9 +46,26 @@ const Card: React.FC<CardProps> = ({ children }) => {
   );
 }
 
+interface CupProps {
+  guest: number;
+}
+
+const Cup: React.FC<CupProps> = ({ guest }) => {
+  return (
+    <h2>Tea Cup for guest #{guest}</h2>
+  )
+}
+
 function App() {
+
+  let cups = [];
+  for (let i = 0; i < 5; i++) {
+    cups.push(<Cup guest={i} />);
+  }
+
   return (
     <div>
+      {cups}
       <Card>
         <Avatar
           size={100}
