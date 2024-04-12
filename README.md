@@ -23,4 +23,23 @@ DONE
 ### [Adding Interactivity](https://react.dev/learn/adding-interactivity)
 #### [Responding to Events](https://react.dev/learn/responding-to-events)
 
-WIP Event propagation
+DONE
+
+#### [State: A Component's Memory](https://react.dev/learn/state-a-components-memory)
+DONE
+
+#### [Render and Commit](https://react.dev/learn/render-and-commit)
+WIP
+
+#### [State as a Snapshot]()
+
+#### [Queueing a Series of State Updates]()
+
+#### [Updating Objects in State]()
+
+#### [Updating Arrays in State]()
+
+### [Managing State](https://react.dev/learn/managing-state)
+#### [Sharing State Between Components](https://react.dev/learn/sharing-state-between-components)
+
+#### [Synchronizing with Effects]()
